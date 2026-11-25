@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(command -v mongod)",
+      "Bash(powershell -Command \"Get-Service -Name MongoDB -ErrorAction SilentlyContinue\")",
+      "Bash(command -v docker)",
+      "Bash(docker info *)",
+      "Bash(node \"C:/Users/vinay/AppData/Local/Temp/claude/d--Build-Buddy-Projects-Interview-Preparation-Platform/30646fb8-7065-4134-93d0-ee5b8c7b70fc/scratchpad/smoke_test.js\")",
+      "Bash(winget --version)",
+      "Bash(npm ls *)",
+      "Bash(node \"C:/Users/vinay/AppData/Local/Temp/claude/d--Build-Buddy-Projects-Interview-Preparation-Platform/30646fb8-7065-4134-93d0-ee5b8c7b70fc/scratchpad/e2e_test.js\")",
+      "Bash(cp \"C:/Users/vinay/AppData/Local/Temp/claude/d--Build-Buddy-Projects-Interview-Preparation-Platform/30646fb8-7065-4134-93d0-ee5b8c7b70fc/scratchpad/e2e_test.js\" \"/d/Build Buddy Projects/Interview Preparation Platform/server/__e2e_test.js\")",
+      "Bash(node __e2e_test.js)",
+      "Bash(find '/d/Build Buddy Projects/Interview Preparation Platform' -path */.claude/skills/*/SKILL.md)",
+      "Bash(command -v chromium-cli)",
+      "Bash(timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null; do sleep 1; done')",
+      "Bash(node \"C:/Users/vinay/AppData/Local/Temp/claude/d--Build-Buddy-Projects-Interview-Preparation-Platform/30646fb8-7065-4134-93d0-ee5b8c7b70fc/scratchpad/screenshot.js\")",
+      "Bash(cp \"C:/Users/vinay/AppData/Local/Temp/claude/d--Build-Buddy-Projects-Interview-Preparation-Platform/30646fb8-7065-4134-93d0-ee5b8c7b70fc/scratchpad/screenshot.js\" \"/d/Build Buddy Projects/Interview Preparation Platform/client/__screenshot.js\")",
+      "Bash(node __screenshot.js)",
+      "Bash(mv \"/d/Build Buddy Projects/Interview Preparation Platform/client/__screenshot.js\" \"/d/Build Buddy Projects/Interview Preparation Platform/client/__screenshot.cjs\")",
+      "Bash(node __screenshot.cjs)",
+      "Bash(node __ui_flow.cjs)",
+      "Bash(node __light_check.cjs)",
+      "Bash(curl -s -X POST https://emkc.org/api/v2/piston/execute -H \"Content-Type: application/json\" -d '{\"language\":\"python\",\"version\":\"3.10.0\",\"files\":[{\"content\":\"print\\(1+1\\)\"}]}' --max-time 15)",
+      "Bash(curl -s -X POST \"https://ce.judge0.com/submissions?base64_encoded=false&wait=true\" -H \"Content-Type: application/json\" -d '{\"source_code\":\"print\\(1+1\\)\",\"language_id\":71}' --max-time 15)",
+      "Bash(curl -s \"https://ce.judge0.com/languages\" --max-time 15)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -X POST 'https://ce.judge0.com/submissions?base64_encoded=false&wait=true' -H 'Content-Type: application/json' -d '{\"source_code\":\"#include <stdio.h>\\\\nint main\\(\\){printf\\(\\\\\"hi\\\\\"\\);return 0;}\",\"language_id\":103}' --max-time 20)"
+    ]
+  }
+}
